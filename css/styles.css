@@ -216,6 +216,17 @@ button {
     color: var(--color-accent);
 }
 
+.nav__logo img {
+    height: 50px; /* Ajustez selon vos besoins */
+    width: auto;
+    display: block;
+    transition: opacity var(--transition-fast);
+}
+
+.nav__logo:hover img {
+    opacity: 0.8;
+}
+
 .nav__list {
     display: flex;
     align-items: center;
